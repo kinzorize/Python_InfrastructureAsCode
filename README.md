@@ -2,7 +2,7 @@
 
 In this project, i built a complete ETL pipeline with python Infrastructure as Code(IaC) using S3, python, pandas, psycopg2, boto3 and redshift
 
-#Tools you will need to execute this project are
+# Tools you will need to execute this project are
 
 - install pnadas
 - install python 3.10
