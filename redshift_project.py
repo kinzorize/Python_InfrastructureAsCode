@@ -49,6 +49,7 @@ log_data_file
 # dynamically call my arn role with this code
 roleArn = iam.get_role(RoleName=DWH_IAM_ROLE_NAME)['Role']['Arn']
 
+# Create the redshift_cluster
 try:
     response = redshift.create_cluster(
         ClusterType=DWH_CLUSTER_TYPE,
