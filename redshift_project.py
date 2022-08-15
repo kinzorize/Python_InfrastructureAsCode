@@ -121,7 +121,7 @@ except psycopg2.Error as e:
     print("Error:Could not get cursor to the database")
     print(e)
 
-
+# Create empty table on my redshift cluster
 try:
     cur.execute("""CREATE TABLE "factCovid" (
     "index" INTEGER,
